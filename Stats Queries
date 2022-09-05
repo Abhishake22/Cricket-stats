@@ -1,0 +1,10 @@
+QUERY TO find Player who has scored more than 8000 runs and Best score of more than 250 and more than 30 NOs
+
+select player,Runs,HS
+from teststats
+where Runs > 8000 and HS >250 and NO > 30
+
+Rahul Dravid and VVS Laxman are the only 2 players who has acheived this feet
+
+
+
